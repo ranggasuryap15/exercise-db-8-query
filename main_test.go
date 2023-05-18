@@ -12,7 +12,7 @@ var _ = Describe("Query data in table 'people'", Ordered, func() {
 	dbCredential := main.Credential{
 		Host:         "localhost",
 		Username:     "postgres",
-		Password:     "postgres",
+		Password:     "root",
 		DatabaseName: "rg_database",
 		Port:         5432,
 		Schema:       "public",

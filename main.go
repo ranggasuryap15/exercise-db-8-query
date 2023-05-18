@@ -110,7 +110,7 @@ func main() {
 	dbCredential := Credential{
 		Host:         "localhost",
 		Username:     "postgres",
-		Password:     "postgres",
+		Password:     "root",
 		DatabaseName: "rg_database",
 		Port:         5432,
 	}
